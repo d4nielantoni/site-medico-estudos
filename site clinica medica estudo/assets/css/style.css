@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 14%;
+    background-color: #f7d6c5;
+    padding: 10px 20px 0px;
+    text-align: left;
+}
+.menu-content:hover{
+    color: #b38b6d;
+   text-decoration:dashed;
+   transition: all 1s ease;
+}
+.menu-content{
+    color: white;
+}
+.header {
+    background-color: rgba(172, 14, 164, 0.3);
+    min-height: 150px;
+    background-image: url(../img/estetoscopio-de-medicos-em-um-fu.jpg);
+    height: 250px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #b38b6d;
+    /* min-height: 150px; */
+    text-align: center;
+    height: 100px;
+    padding-top: 20px; 
+}
+.footer-content{
+    color: white;
+}
+.footer-content:hover{
+    color: #f7d6c5;
+    text-decoration:dashed;
+    transition: all 1s ease;
+}
+
+
+
+.imagem{
+    width: 1000px;
+    height: 350px;
+}
+.links{
+    padding-top: 19px;
+    
+}
+.fundo{
+    max-width: 900px;
+}
+.dr{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.dr:hover{
+    text-decoration: dashed;
+    color: #8a6959;
+    transition: all 0.4s ease;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
